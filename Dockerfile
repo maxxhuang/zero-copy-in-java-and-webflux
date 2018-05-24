@@ -36,6 +36,7 @@ COPY target/zerocopy-0.0.1-SNAPSHOT.jar /zerocopy.jar
 ENV APP_NAME=zerocopy
 ENV GRAPHITE_IP=127.0.0.1
 ENV GRAPHITE_PORT=2003
+ENV MONITOR_INTERVAL=10
 
 ENV DOWNLOAD_FILE=/public/scalaz.pdf
 
