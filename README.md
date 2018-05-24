@@ -54,11 +54,11 @@ Run the command to keep the file server busy.
 
 ### zero copy
 
-> while true; do curl -v localhost:8080/zerocopy1 > /dev/null; done
+> while true; do curl -v [file server ip]:8080/zerocopy1 > /dev/null; done
 
 ### non zero copy
 
-> while true; do curl -v localhost:8080/nonzerocopy > /dev/null; done
+> while true; do curl -v [file server ip]:8080/nonzerocopy > /dev/null; done
 
 ## Observing CPU metrics
 
